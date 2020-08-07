@@ -16,7 +16,11 @@ pipeline {
             steps {
                 echo " ============== start building image =================="
                 dir ('docker/toolbox') {
+<<<<<<< HEAD
                 	sh 'docker build -t toolbox:latest . '
+=======
+                	sh 'docker build -t iliyakarin/toolbox:latest . '
+>>>>>>> 5545a5c521aaed15de1bb4c623fd8793cb528d0b
                 }
             }
         }
